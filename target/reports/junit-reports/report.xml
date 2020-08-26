@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="15.463">
+    <testcase classname="Feature to test google search functionality" name="Validate google search is working" time="8.397">
+        <system-out>
+            <![CDATA[Given browser is open.......................................................passed
+And user is on google search page...........................................passed
+When user enters a text in search box.......................................passed
+And hits enter..............................................................passed
+Then user is navigated to search results....................................passed
+And search results count is more then 360000000.............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature to test login functionality" name="Check login is successful with valid credentials" time="6.495">
+        <system-out>
+            <![CDATA[Given user is on login page.................................................passed
+When user enters username and password......................................passed
+And clicks on login button..................................................passed
+Then user is navigated to the url '/matches'................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
